@@ -22,7 +22,7 @@
 
 	  gtag('config', 'UA-123367967-1');
 	</script>
-	
+
 </head>
 
 <body>
@@ -58,7 +58,7 @@
 							<!-- name -->
 							<h1 class="unselectable">Anant Upadhyay</h1>
 							<!-- role -->
-							<h2 class="unselectable">Full Stack Developer</h2>
+							<h2 id="jobtitle" class="unselectable"></h2>
 						</header>
 						<div class="profile-bio">
 							<p class="unselectable">
@@ -265,11 +265,35 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
+		<!-- TypewriterJS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+
 		<!-- main js file -->
 		<script src="js/main.js"></script>
 
 		<script>
 		$(document).ready(function() {
+
+		var typewriterJobTitle = document.getElementById('jobtitle');
+
+		var typewriter = new Typewriter(typewriterJobTitle, {
+		    loop: true
+		});
+
+		typewriter.typeString('Full Stack Web Developer')
+		    .pauseFor(2500)
+		    .deleteAll()
+		    .typeString('Blockchain Developer')
+		    .pauseFor(2500)
+		    .deleteAll()
+		    .typeString('UI/UX Developer')
+				.pauseFor(2500)
+				.deleteAll()
+				.typeString('Product Owner')
+				.pauseFor(2500)
+				.deleteAll()
+				.typeString('Crypto Advisor')
+		    .start();
 
 			styleDefault();
 
