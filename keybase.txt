@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/anantup
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://techieanant.github.io
+  * I am anantup (https://keybase.io/anantup) on keybase.
+  * I have a public key ASDtp_0UF14MyjavIB-E20KIdxNgBGFV0L6WPWpwGQl1_wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120eda7fd14175e0cca36af201f84db4288771360046155d0be963d6a70190975ff0a",
+      "host": "keybase.io",
+      "kid": "0120eda7fd14175e0cca36af201f84db4288771360046155d0be963d6a70190975ff0a",
+      "uid": "fb5160973f693c5ba50fb046274d3719",
+      "username": "anantup"
+    },
+    "merkle_root": {
+      "ctime": 1545012506,
+      "hash": "13a7ed1abe9847518149d89051ecccec484edbb989d1ee97eff2de206e8dedc41212e493dba3357b04e6110c12e57b25935bc5f848b28085fdf9fab3cccbe9e2",
+      "hash_meta": "9767d7759604bad1ef7cac9a1c3ce9e71ce3439ba49fe8f5d5975c83e88a1757",
+      "seqno": 4154725
+    },
+    "service": {
+      "entropy": "cSMFmniJiA8m9nFZaUuZjJmr",
+      "hostname": "techieanant.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1545012530,
+  "expire_in": 504576000,
+  "prev": "7cddab5654b661ffa3b7d44a9c451b7806c08e9c309e8391d4a560322830ee8a",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7af9FBdeDMo2ryAfhNtCiHcTYARhVdC+lj1qcBkJdf8Kp3BheWxvYWTESpcCCMQgfN2rVlS2Yf+jt9RKnEUbeAbAjpwwnoOR1KVgMigw7orEIIv1H7hGui92p7avIkXzyFYG6YqLdn0VH+hF3/OFWdFgAgHCo3NpZ8RAgRh+A6iHzzJl/1jsc0JiUFUK+OX3LheGUDFG4tAImPv5sc+imUI2E6Evgf3j+TNHIXCJ6xLAtIcuRE+ZGBx8DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKmbaqhgBvQLwWuma3WVL9J4EWyIBoJHg13e3NbJ0htGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anantup
+
+==================================================================
